@@ -23,5 +23,8 @@ function valuesInObject(obj) {
   return values;
 }
 
+function valuesInObject(obj) {
+  return Object.values(obj);
+}
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 module.exports = valuesInObject;
