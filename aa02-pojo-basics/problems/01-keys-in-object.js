@@ -12,7 +12,7 @@ keysInObject(animals); // => ["dog", "cat", "bison"]
 keysInObject(foods); // => ["apple", "lemon", "mango"]
 ***********************************************************************/
 
-
+// Using for...in loops
 function keysInObject(obj) {
   let keys = [];
   for (let key in obj) {
