@@ -16,8 +16,14 @@ function doesKeyExist(obj, key) {
 }
 */
 
+/*
 function doesKeyExist(obj, key) {
   return Object.keys(obj).includes(key);
+}
+*/
+
+function doesKeyExist(obj, key) {
+  return key in obj; //Uses single iteration of a for..in loop.
 }
 
 let obj1 = {bootcamp: 'App Academy', course: 'Bootcamp Prep'}
